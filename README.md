@@ -4,9 +4,9 @@ Clone the repo
 
 ```$ git clone https://github.com/sxmber/blackbeard-server```
 
-Install using go
+cd and install using go
 
-```$ go install```
+```$ cd blackbeard-server && go install```
 
 Running starts the server on port 7123
 
