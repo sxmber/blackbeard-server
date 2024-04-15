@@ -46,7 +46,7 @@ func handleRequest(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "Error running qbittorrent: %v", err)
 	}
 	w.WriteHeader(http.StatusContinue)
-	fmt.Fprintf(w, "Torrenting...")
+	fmt.Fprintf(w, "Torrenting started, check qbittorrent UI at 192.168.1.5")
 
 }
 
