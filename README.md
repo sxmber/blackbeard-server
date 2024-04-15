@@ -6,7 +6,7 @@ Clone the repo
 
 Install using go
 
-```$ go install blackbeard-server```
+```$ go install```
 
 Running starts the server on port 7123
 
